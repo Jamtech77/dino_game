@@ -48,7 +48,7 @@ while True:
 
     if dino_scan != None: #Is Head
         #print("detec dino head")
-        under_dino_scan = snp.locateCenterOnScreen('under_dino_3.jpeg', threshold = 0.4, region = under_dino + under_diff)
+        under_dino_scan = snp.locateCenterOnScreen('under_dino.jpeg', threshold = 0.4, region = under_dino + under_diff)
         if under_dino_scan != None: #Is Blank
             pyautogui.keyDown('down')
 
